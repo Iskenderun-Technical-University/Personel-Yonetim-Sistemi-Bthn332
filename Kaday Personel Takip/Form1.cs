@@ -24,7 +24,8 @@ namespace Kaday_Personel_Takip
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form Kayıt = new Form2();
+            Kayıt.ShowDialog();
         }
     }
 }
